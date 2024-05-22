@@ -1,0 +1,56 @@
+#container{
+    width: 75%;
+    margin: 15px auto;
+}
+h1{
+    text-align: center;
+    padding-bottom: 25px;
+}
+#produtos{
+    display: flex;
+    flex-direction: row-reverse;
+}
+img{
+    width: 150px;
+    height: 220px;
+    padding: 10px 50px;
+    margin: 15px auto;
+}
+
+a{
+    display: block;
+    width: 70px;
+    
+}
+#nomeProdutos{
+    width: 75%;
+    margin-left: 220px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a{
+    margin-left: 75px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#Precos{
+    border: 1px solid red;
+}
+#Preco{
+    width: 75%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-around;
+   }
+P{
+       margin-top: 5px;
+       margin-left: 80px;
+       text-decoration: none;
+       color: #000000;
+   }
+
+
+
