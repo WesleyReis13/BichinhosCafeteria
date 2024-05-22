@@ -1,0 +1,30 @@
+.descProd{
+    display: flex;
+    flex-direction: row;
+    width:700px ;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+.descricao{
+    width: 600px;
+    padding-top:20px ;
+    padding-right: 10px;
+}
+
+.precoProd{
+    height: 500px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: -270px;
+    margin-right: 25px;
+}
+.precoProd label {
+    margin-top: 15px;
+}
+
+.precoProd button{
+    padding: 15px;
+    margin: 50px;
+}
