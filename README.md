@@ -17,33 +17,26 @@ Para executar este projeto localmente, siga os passos abaixo:
    ```sh
    git clone https://github.com/WesleyReis13/BichinhosCafeteria.git
 
-Navegue até o diretório do projeto:
-cd BichinhosCafeteria
-Instale as dependências:
-npm install
-Inicie o servidor de desenvolvimento:
-npm start
+2. Navegue até o diretório do projeto:
+   cd BichinhosCafeteria
 
-Uso
-Página Home
-A página inicial mostra todos os produtos disponíveis.
-Cada produto possui um nome, preço, botão para adicionar ao carrinho e botão "Comprar Agora".
-Descrição do Produto
-Clique no nome de qualquer produto para ver a descrição detalhada.
-Carrinho de Compras
-Adicione produtos ao carrinho usando o botão de adicionar.
-Remova produtos do carrinho individualmente.
-Aplique o cupom de desconto "bichinhosdati" para obter 10% de desconto.
+3. Instale as dependências:
+  npm install
+
+4. Inicie o servidor de desenvolvimento:
+  npm start
+
 Contribuição
 Para contribuir com o projeto, siga os passos:
 
-Faça um fork do repositório.
-Crie uma nova branch:
-git checkout -b feature/nova-feature
-Faça suas alterações e commit:
-git commit -m 'Adicionar nova feature'
-Envie suas mudanças para o repositório:
-git push origin feature/nova-feature
-Crie um Pull Request.
-Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+1. Faça um fork do repositório.
+2. Crie uma nova branch:  
+  git checkout -b feature/nova-feature
+
+3. Faça suas alterações e commit:
+  git commit -m 'Adicionar nova feature'
+
+4. Envie suas mudanças para o repositório:
+  git push origin feature/nova-feature
+
+5. Crie um Pull Request.
