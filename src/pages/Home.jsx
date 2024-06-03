@@ -8,7 +8,7 @@ import Imagem4 from '../assets/tortaDeLimao.jpg';
 import { CartContext } from '../CartContext';
 
 function Home() {
-    const { addToCart } = useContext(CartContext);
+    const { addToCart, isInCart } = useContext(CartContext);
     const [quantities, setQuantities] = useState({
         brownie: 1,
         cafe: 1,
@@ -35,10 +35,13 @@ function Home() {
     const handleAddToCart = (product) => {
         const quantity = quantities[product.id];
         addToCart({ ...product, quantity, totalPrice: product.price * quantity });
+        alert('Produto Adicionado ao carrinho!');
     };
 
     const handleBuyNow = (product) => {
-        handleAddToCart(product);
+        if (!isInCart(product.id)) {
+            handleAddToCart(product);
+        }
         navigate('/carrinho');
     };
 
