@@ -18,11 +18,13 @@ Para executar este projeto localmente, siga os passos abaixo:
    git clone https://github.com/WesleyReis13/BichinhosCafeteria.git
 
 2. Navegue até o diretório do projeto:
+ ```sh
    cd BichinhosCafeteria
 
 3. Instale as dependências:
+  ```sh
   npm install
-
+  ```
 4. Inicie o servidor de desenvolvimento:
   npm start
 
@@ -31,12 +33,17 @@ Para contribuir com o projeto, siga os passos:
 
 1. Faça um fork do repositório.
 2. Crie uma nova branch:  
+
   git checkout -b feature/nova-feature
 
 3. Faça suas alterações e commit:
+
   git commit -m 'Adicionar nova feature'
 
 4. Envie suas mudanças para o repositório:
   git push origin feature/nova-feature
 
 5. Crie um Pull Request.
+
+Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
